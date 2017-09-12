@@ -47,6 +47,6 @@
 	<input type="reset" value="다시입력" name="B2">
 </form>
 <hr>
-	계산결과: <%=result %>
+	계산결과: <%=result %>dd
 </body>
 </html>
