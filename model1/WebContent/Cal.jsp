@@ -5,6 +5,7 @@
 <% 
 	int result=0;
 		if(request.getMethod().equals("POST")){
+			//자바단에 값을 넘겨줄때 post인지 get인지 확인
 			String op = request.getParameter("operator");
 			
 			int num1 = Integer.parseInt(request.getParameter("num1"));
@@ -47,6 +48,6 @@
 	<input type="reset" value="다시입력" name="B2">
 </form>
 <hr>
-	계산결과: <%=result %>dd
+	계산결과: <%=result %>
 </body>
 </html>
